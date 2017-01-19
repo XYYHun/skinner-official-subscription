@@ -1,0 +1,18 @@
+{
+  id: 'skinner-official',
+  name: 'Skinner Official Subscription',
+  templates: [
+    {
+      'url': 'templates/google-plus.template.css',
+      'matches': [{type: 'domain', value: 'plus.google.com'}],
+    },
+    {
+      'url': 'templates/facebook.template.css',
+      'matches': [{type: 'domain', value: 'facebook.com'}],
+    },
+    {
+      'url': 'templates/twitter.template.css',
+      'matches': [{type: 'domain', value: 'twitter.com'}],
+    },
+  ],
+}
