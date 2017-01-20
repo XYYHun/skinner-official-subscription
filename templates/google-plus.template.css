@@ -71,7 +71,7 @@ body#yDmH0d > trans-layer > div
   
 .cjGgHb .M9kDrd:hover, .M9kDrd:focus
 {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, .2);
 }
 
 .M9kDrd, .M9kDrd .DCYkOe, .KpEl0 path
@@ -89,6 +89,11 @@ body#yDmH0d > trans-layer > div
 .Do0spe, .mfqKsb, .DcCBcf
 {
   color: /* $secondary-color[*/#333/*]*/ !important;
+}
+
+.M9kDrd.pWQY8d
+{
+  color: /* $highlight-color[*/#07f/*]*/ !important;
 }
 
 /*? sidebar-show-seperator {*/
@@ -126,7 +131,7 @@ body#yDmH0d > trans-layer > div
 .Tuxepf,
 .Gu1oT
 {
-  color: /* $highlight-color[*/initial/*]*/ !important;
+  color: /* $highlight-color[*/#07f/*]*/ !important;
 }
 
 .Tq8tEc,
@@ -201,7 +206,7 @@ body#yDmH0d > trans-layer > div
 {
   background-color: transparent;
   background-image: none;
-  color: /* $highlight-color[*/initial/*]*/;
+  color: /* $highlight-color[*/#07f/*]*/;
 }
 
 /* content Controls */
