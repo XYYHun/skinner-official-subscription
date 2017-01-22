@@ -1,7 +1,7 @@
 {
   "id": "skinner-official",
   "name": "Skinner Official Subscription",
-  "version": "2017-01-22:b",
+  "version": "2017-01-22:c",
   "templates": [
     {
       "url": "templates/google-plus.template.css",

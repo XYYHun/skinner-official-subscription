@@ -7,7 +7,7 @@ textarea
 
 body#yDmH0d
 {
-  background: /* $background[*/#fcfcf3 url(https://raw.githubusercontent.com/XYYHun/skinner-official-subscription/master/images/paper.png)/*]*/ !important;
+  background: /* $background[*/#fcfcf3 url('https://raw.githubusercontent.com/XYYHun/skinner-official-subscription/master/images/paper.png')/*]*/ !important;
   background-size: /* $background-size[*/auto/*]*/ !important;
 }
 

@@ -1,12 +1,12 @@
 body, body.ms-windows
 {
-  font-family: /* $default-font[*/sans-serif/*]*/;
-  color: /* $foreground-color[*/inherit/*]*/;
+  font-family: /* $default-font[*/Comic Sans Ms, sans-serif/*]*/;
+  color: /* $foreground-color[*/#333/*]*/;
 }
 
 body.ms-windows
 {
-  background: /* $background[*/radial-gradient(circle at 80% 20%, rgba(180,220,255,1) 0%, rgba(80,160,240,1) 100%) fixed/*]*/ !important;
+  background: /* $background[*/#fcfcf3 url('https://pbs.twimg.com/media/C2xA2F6VQAAFRYK.png:large')/*]*/ !important;
   background-size: /* $background-size[*/auto/*]*/ !important;
 }
 
@@ -37,17 +37,17 @@ body.ms-windows
 /*? link-color {*/
 a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .new-tweets-bar, .remove-background-btn, .stream-item-activity-notification .latest-tweet .tweet-row a:hover, .stream-item-activity-notification .latest-tweet .tweet-row a:focus, .stream-item-activity-notification .latest-tweet .tweet-row a:hover b, .stream-item-activity-notification .latest-tweet .tweet-row a:focus b
 {
-  color: /* $link-color[*/inherit/*]*/ !important;
+  color: /* $link-color[*/#396/*]*/ !important;
 }
 
 #global-actions > li > a
 {
-  border-bottom-color: /* $link-color[*/inherit/*]*/ !important;
+  border-bottom-color: /* $link-color[*/#396/*]*/ !important;
 }
 
 .u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus
 {
-  border-color: /* $link-color[*/inherit/*]*/ !important;
+  border-color: /* $link-color[*/#396/*]*/ !important;
 }
 /*}*/
 
@@ -123,7 +123,7 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .ProfileCard-bio,
 .QuoteTweet .tweet-content, .QuoteTweet-text a, .QuoteTweet-text a:hover, .QuoteTweet-text a:focus, .QuoteTweet-text a:active, .QuoteTweet-text .pretty-link b, .QuoteTweet-text .pretty-link s, .QuoteTweet-text .pretty-link:hover b, .QuoteTweet-text .pretty-link:hover s, .QuoteTweet-text .pretty-link:focus b, .QuoteTweet-text .pretty-link:focus s, .QuoteTweet-text .pretty-link:active b, .QuoteTweet-text .pretty-link:active s
 {
-  color: /* $foreground-color[*/inherit/*]*/;
+  color: /* $foreground-color[*/#333/*]*/;
 }
 /*}*/
 
@@ -144,7 +144,7 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 
 /*}*/
 
-/*? banner-original:false {*/
+/*? !banner-original {*/
 
 .nav>li
 {
@@ -153,13 +153,13 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 
 .global-nav
 {
-  box-shadow: /* $banner-shadow[*/0 -1px 2px 3px rgba(0,0,0,.8)/*]*/;
   border-bottom: none;
 }
 
 .global-nav-inner
 {
-  background: /* $banner-background[*/rgba(0,120,210,.95)/*]*/ !important;
+  background: /* $banner-background[*/#568/*]*/ !important;
+  box-shadow: /* $banner-shadow[*/inset 0 -2px 8px -2px rgba(0,0,0, .8)/*]*/;
 }
 
 .ProfileCanopy-navBar
@@ -194,7 +194,7 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .roaming-module:not(.LiveVideoHomePageModuleContainer):not(.Footer),
 .ProfileSidebar--withLeftAlignment
 {
-  background: /* $sidebar-background[*/rgba(235, 245, 255, .95)/*]*/;
+  background: /* $sidebar-background[*/rgba(255, 255, 255, .8)/*]*/;
   box-shadow: /* $sidebar-shadow[*/none/*]*/;
 
   border: /* $sidebar-border[*/none/*]*/ !important;
