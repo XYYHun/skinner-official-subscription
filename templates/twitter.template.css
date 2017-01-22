@@ -165,7 +165,7 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .ProfileCanopy-navBar
 {
   background: /* $banner-background[*/rgba(0,120,210,.95)/*]*/ !important;
-  box-shadow: /* $banner-shadow[*/0 -1px 2px 3px rgba(0,0,0,.8)/*]*/;
+  box-shadow: /* $banner-shadow[*/inset 0 -2px 8px -2px rgba(0,0,0, .8)/*]*/;
   border-bottom: none;
 }
 
