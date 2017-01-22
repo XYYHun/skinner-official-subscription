@@ -1,8 +1,17 @@
 {
   "id": "skinner-official",
   "name": "Skinner Official Subscription",
-  "version": "2017-01-22:c",
+  "version": "2017-01-22:d",
   "templates": [
+    {
+      "url": "templates/google.template.css",
+      "matches": [
+        {"type": "domain", "value": "www.google.com"},
+        {"type": "domain", "value": "www.google.co.jp"},
+        {"type": "domain", "value": "www.google.com.hk"},
+        {"type": "domain", "value": "www.google.com.sg"}
+      ]
+    },
     {
       "url": "templates/google-plus.template.css",
       "matches": [{"type": "domain", "value": "plus.google.com"}]
