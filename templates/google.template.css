@@ -11,7 +11,8 @@ a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .t
   color: /* $highlight-color[*/#c66/*]*/;
 }
 
-.a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc>i, .bc a:link
+.a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc>i, .bc a:link,
+a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b
 {
   color: /* $link-color[*/#396/*]*/ !important;
 }
@@ -38,9 +39,10 @@ a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .t
   color: /* $banner-foreground-color[*/#fff/*]*/ !important;
 }
 
-.s
+.s,
+._cnc
 {
-  color: /* $foreground-color[*/#333/*]*/;
+  color: /* $foreground-color[*/#333/*]*/ !important;
 }
 
 #hdtb .hdtb-mitem a,
@@ -66,7 +68,9 @@ a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .t
 .appbar,
 #hdtb,
 .rc,
-#brs
+#brs,
+.xpdopen,
+#res .g .ts
 {
   background: /* $content-background[*/rgba(255,255,255,.85)/*]*/ !important;
   background-size: /*content-background-size[*/auto/*]*/ !important;
@@ -74,7 +78,8 @@ a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .t
 }
 
 .rc,
-#brs
+#brs,
+#res .g .ts
 {
   padding: 12px;
 }
@@ -83,6 +88,19 @@ a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .t
 .fbar p, .fbar a, #fsettl, #fsett a
 {
   color: /* $secondary-color[*/#999/*]*/ !important;
+}
+
+.kp-blk .xpdclose ._wle, .kp-blk .xpdopen ._xle
+{
+  border-top: /* $border[*/solid 1px rgba(127,127,127,1)/*]*/ !important;
+  border-top-width: 1px;
+}
+
+.kno-ecr-pt,
+._xdb .fl,
+._W5e a
+{
+  color: /* $highlight-color[*/#c66/*]*/ !important;
 }
 
 #hdtb
