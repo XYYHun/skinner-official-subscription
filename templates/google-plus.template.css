@@ -95,13 +95,15 @@ body#yDmH0d > trans-layer > div
 }
 
 /*? sidebar-show-seperator {*/
-.PvjVhe {
+.PvjVhe
+{
   border-bottom: 1px solid /* $sidebar-foreground-color[*/#f0f0f0/*]*/;
 }
 /*}*/
 
 /*? !sidebar-show-seperator {*/
-.PvjVhe {
+.PvjVhe
+{
   border: none;
 }
 /*}*/
@@ -142,7 +144,8 @@ body#yDmH0d > trans-layer > div
 .f6umD,
 .gmFStc,
 .IAxesc, /* location infomation. */
-.vHTiT /* +1 of comments */
+.vHTiT, /* +1 of comments */
+.qXj2He
 {
   color: /* $secondary-color[*/#999/*]*/ !important;
 }
@@ -214,6 +217,51 @@ body#yDmH0d > trans-layer > div
   background-image: none;
   color: /* $highlight-color[*/#c66/*]*/;
 }
+
+/* Create Post Ref. */
+
+.RopD0b .skMbkf
+{
+  color: /* $highlight-color[*/#c66/*]*/;
+}
+
+.T4ihme .skMbkf
+{
+  color: /* $link-color[*/#396/*]*/;
+}
+
+.P5dET
+{
+  color: /* $foreground-color[*/#333/*]*/;
+}
+
+.BS3Aif
+{
+  border: /* $border[*/solid 1px rgba(127,127,127,.5)/*]*/;
+  border-width: 1px;
+}
+
+/* Your inference */
+
+.AHNvhd,
+.nxu3pf
+{
+  color: /* $highlight-color[*/#c66/*]*/;
+}
+
+.FaxAh, .bOFye
+{
+  color: /* $foreground-color[*/#333/*]*/;
+}
+
+.Fn5hwe, .w9t6Nd,
+.y3gihb, .RLoLzd,
+.MocG8c
+{
+  color: /* $secondary-color[*/#999/*]*/;
+}
+
+
 
 /* content Controls */
   
