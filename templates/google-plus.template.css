@@ -116,6 +116,7 @@ body#yDmH0d > trans-layer > div
 .sVAYfc
 {
   box-sizing: border-box;
+  color: /* $foreground-color[*/#333/*]*/ !important;
   background: /* $content-background[*/rgba(255,255,255,.85)/*]*/ !important;
   background-size: /* $content-background-size[*/auto/*]*/ !important;
   box-shadow: /* $content-shadow[*/5px 5px 1px -1px rgba(0,0,0,.5), inset 3px 3px 3px -1px rgba(255, 255, 255, .5)/*]*/ !important;
